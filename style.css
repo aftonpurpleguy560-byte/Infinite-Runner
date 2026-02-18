@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Efe'nin siyah arka plan tercihi */
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+#game-canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+#ui {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #8A2BE2; /* Purpleguy moru */
+    font-size: 24px;
+    font-weight: bold;
+    pointer-events: none;
+    text-shadow: 0 0 10px rgba(138, 43, 226, 0.8);
+}
+
